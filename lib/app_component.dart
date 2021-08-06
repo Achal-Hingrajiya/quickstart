@@ -1,10 +1,9 @@
 import 'package:angular/angular.dart';
-import 'package:angular_app/components/article/article_component.dart';
-import 'package:angular_app/components/featured_post/featured_post_component.dart';
+
+import 'package:angular_app/components/footer/footer_component.dart';
 import 'package:angular_app/components/header/header_component.dart';
-import 'package:angular_app/components/long_featured_blogpost/long_featured_post_component.dart';
+import 'package:angular_app/components/main_body/main_body_component.dart';
 import 'package:angular_app/components/navigation/nav_component.dart';
-import 'package:angular_app/components/side_pane/side_pane_component.dart';
 
 @Component(
   selector: 'my-app',
@@ -13,10 +12,8 @@ import 'package:angular_app/components/side_pane/side_pane_component.dart';
     coreDirectives,
     HeaderComponent,
     NavComponent,
-    LongFeaturedPostComponent,
-    FeaturedPostComponent,
-    ArticleComponent,
-    SidePaneComponent,
+    MainBodyComponent,
+    FooterComponent
   ],
 )
 class AppComponent {
