@@ -4,6 +4,7 @@ import 'package:angular_app/components/featured_post/featured_post_component.dar
 import 'package:angular_app/components/header/header_component.dart';
 import 'package:angular_app/components/long_featured_blogpost/long_featured_post_component.dart';
 import 'package:angular_app/components/navigation/nav_component.dart';
+import 'package:angular_app/components/side_pane/side_pane_component.dart';
 
 @Component(
   selector: 'my-app',
@@ -15,6 +16,7 @@ import 'package:angular_app/components/navigation/nav_component.dart';
     LongFeaturedPostComponent,
     FeaturedPostComponent,
     ArticleComponent,
+    SidePaneComponent,
   ],
 )
 class AppComponent {
